@@ -1,0 +1,18 @@
+//
+//  DownloadFileDemo-Prefix.pch
+//  DownloadFileDemo
+//
+//  Created by ZHENGBO on 15/1/5.
+//  Copyright (c) 2015年 WeiPengwei. All rights reserved.
+//
+
+#import<Availability.h>
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in ios SDK 6.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import<UIKit/UIKit.h>
+    #import<Foundation/Foundation.h>
+    #import"PublicHeader.h"
+#endif
